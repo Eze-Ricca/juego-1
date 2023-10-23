@@ -1,7 +1,6 @@
 let canvas = document.getElementById("myCanvas");
 let ctx = canvas.getContext("2d");
 let ballRadius = 10;
-//to move
 
 let x = canvas.width / 2;
 let y = canvas.height - 30;
@@ -25,7 +24,6 @@ let lives = 3;
 //
 document.addEventListener("keydown", keyDownHandler, false);
 document.addEventListener("keyup", keyUpHandler, false);
-
 document.addEventListener("mousemove", mouseMoveHandler, false);
 
 let bricks = [];
